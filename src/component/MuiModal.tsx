@@ -59,7 +59,7 @@ function MuiModal() {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box>
+        <Box className="mui-fixed">
           <Typography id="modal-modal-title" variant="h6" component="h2">
             Text in a modal
           </Typography>
